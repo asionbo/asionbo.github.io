@@ -17,7 +17,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>MHE</title>
+  <title>open-interpreter的初步使用 | MHE</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -59,7 +59,7 @@
 </head>
 
 <!--
-<body class="home-template">
+<body class="post-template">
 -->
 <body id="index" class="lightnav animsition">
 
@@ -161,47 +161,12 @@
         <!-- ============================ Header & Logo bar =========================== -->
 
 
-      <!-- ============================ Hero Image =========================== -->
-
-<section id="hero" class="scrollme">
-    <div class="container-fluid element-img" style="background: url(/img/bg_img.jpg) no-repeat center center fixed;background-size: cover">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 vertical-align cover boost text-center">
-                <div class="center-me animateme" data-when="exit" data-from="0" data-to="0.6" data-opacity="0" data-translatey="100">
-                    <div>
-                        
-                        <h2 style="color: black;filter: brightness(75%) contrast(125%);">That's the <span>WAY</span> it is.</h2>
-                        <p style="color: black;filter: brightness(75%) contrast(125%);"></p>
-                        
-                        <h2 style="color: black;filter: brightness(75%) contrast(125%);"></h2>
-                        <p style="color: black;filter: brightness(75%) contrast(125%);">为自由无束缚的生活</p>
-                        
-
-                    </div>
-                </div>
-            </div>
-            <!-- // .col-md-12 -->
-        </div>
-        <div class="herofade beige-dk"></div>
-    </div>
-</section>
-
-<!-- Height spacing helper -->
-<div class="heightblock"></div>
-<!-- // End height spacing helper -->
-
-<!-- ============================ END Hero Image =========================== -->
-<!-- ============================ Content =========================== -->
-
+      
 <section id="intro">
     <div class="container">
-        
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 opening-statement">
-                <div class="col-md-4">
-                    <h3><a href="/2023/09/07/open-interpreter的初步使用/">open-interpreter的初步使用</a></h3>
-                    <span>
-                        <span class="post-meta">
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<span class="post-meta">
       <time datetime="2023-09-07T14:43:31.000Z" itemprop="datePublished">
           2023-09-07
       </time>
@@ -212,174 +177,93 @@
     
     
 </span>
-                    </span>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                      
-                         这里以MacOS为例 
-   环境  需要  python &gt; 3.10  
-   安装       1       pip install open-interpreter       
-
-   升级       1       pip install -U open-interpreter       
-
-   使用       1       interpreter       
-
-
-
-   QA    1. Q: can
-                      
-                    </p>
-                    
-                    <p class="pull-right readMore">
-                        <a href="/2023/09/07/open-interpreter的初步使用/">Read More...</a>
-                    </p>
-                    
-                </div>
-                <div class="clearfix"></div>
-                <hr class="nogutter">
+                <h1>open-interpreter的初步使用</h1>
             </div>
         </div>
-        
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 opening-statement">
-                <div class="col-md-4">
-                    <h3><a href="/2023/07/23/将whisper应用于iOS/">将whisper应用于iOS</a></h3>
-                    <span>
-                        <span class="post-meta">
-      <time datetime="2023-07-23T02:13:11.000Z" itemprop="datePublished">
-          2023-07-23
-      </time>
-    
-    
-    | 
-    <a href='/tags/Mobile/'>Mobile</a>
-    
-    
-</span>
-                    </span>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                      
-                           问题  
-  使用Core ML? 
- 
-  是否需要openAI授权? 
- 
-  是否可商业化使用? 
- 
- 
-   将要进行的步骤  
- 学习create a Core ML APP , 使用swift 构建 
- 下载whisper.cpp, 将其转化为 Core ML model 
- 设计并实现基础的语音录制 UI 
- 导入Core ML model, 关注输入及输出 
- 
-  官方文档地址: https://develop
-                      
-                    </p>
-                    
-                    <p class="pull-right readMore">
-                        <a href="/2023/07/23/将whisper应用于iOS/">Read More...</a>
-                    </p>
-                    
-                </div>
-                <div class="clearfix"></div>
-                <hr class="nogutter">
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 opening-statement">
-                <div class="col-md-4">
-                    <h3><a href="/2023/07/17/关于BPRD的调查/">关于BPRD的调查</a></h3>
-                    <span>
-                        <span class="post-meta">
-      <time datetime="2023-07-17T01:41:22.000Z" itemprop="datePublished">
-          2023-07-17
-      </time>
-    
-    
-    | 
-    <a href='/tags/神秘学/'>神秘学</a>
-    
-    
-</span>
-                    </span>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                      
-                         对于这个组织，我想大家比较陌生，随着在大街上不断出现的类似公务车，这个神秘组织渐渐浮出水面… 
- 
- 
- 
- 
- 
-     
+        <div class="col-md-8 col-md-offset-2">
+      		<p>这里以MacOS为例</p>
+<h3 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h3><p>需要 <code>python &gt; 3.10</code></p>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install open-interpreter</span><br></pre></td></tr></table></figure>
 
-   结论  针对BPRD进行了“谷歌调查”，发现是《Hellboy》里的组织BPRD——Bureau of Paranormal Research and Defense，暂译“超自然调查研究防御局”。 
-   
+<h3 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install -U open-interpreter</span><br></pre></td></tr></table></figure>
 
-                      
-                    </p>
-                    
-                    <p class="pull-right readMore">
-                        <a href="/2023/07/17/关于BPRD的调查/">Read More...</a>
-                    </p>
-                    
-                </div>
-                <div class="clearfix"></div>
-                <hr class="nogutter">
-            </div>
+<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">interpreter</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="QA"><a href="#QA" class="headerlink" title="QA"></a>QA</h3><h4 id="1-Q-can’t-install-on-MacOS"><a href="#1-Q-can’t-install-on-MacOS" class="headerlink" title="1. Q: can’t install on MacOS"></a>1. Q: can’t install on MacOS</h4><p>如果你在尝试安装后提示错误如：<br><em>ERROR: Ignored the following versions that require a different python version: 0.0.1 Requires-Python &gt;&#x3D;3.10,&lt;4.0; 0.0.2 Requires-Python &gt;&#x3D;3.10,&lt;4.0; 0.0.21 Requires-Python &gt;&#x3D;3.10,&lt;4.0; 0.0.22 Requires-Python &gt;&#x3D;3.10,&lt;4.0; 0.0.221 Requires-Python &gt;&#x3D;3.10,&lt;4.0; 0.0.222 Requires-Python &gt;&#x3D;3.10,&lt;4.0; 0.0.223 Requires-Python &gt;&#x3D;3.10,&lt;4.0; 0.0.224 Requires-Python &gt;&#x3D;3.10,&lt;4.0; 0.0.225 Requires-Python &gt;&#x3D;3.10,&lt;4.0; ……..</em></p>
+<h5 id="A-可能是你的python版本小于3-10，使用以下命令"><a href="#A-可能是你的python版本小于3-10，使用以下命令" class="headerlink" title="A: 可能是你的python版本小于3.10，使用以下命令:"></a>A: 可能是你的python版本小于3.10，使用以下命令:</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip --version</span><br></pre></td></tr></table></figure>
+<p>检查下输出的内容可能是3.9，因为MacOS 默认.<br>可以参考 xx 使用<code>pyenv</code>管理python 版本.</p>
+<h4 id="2-Q-Install-llama-cpp-python-failed"><a href="#2-Q-Install-llama-cpp-python-failed" class="headerlink" title="2. Q: Install llama-cpp-python failed"></a>2. Q: Install llama-cpp-python failed</h4><p>选择使用llama并安装时出现<br>Code-Llama interface package not found. Install llama-cpp-python<br>安装llama-cpp-python失败了</p>
+<h5 id="A-单独安装llama-cpp-python就可以了，使用以下命令安装"><a href="#A-单独安装llama-cpp-python就可以了，使用以下命令安装" class="headerlink" title="A: 单独安装llama-cpp-python就可以了，使用以下命令安装:"></a>A: 单独安装llama-cpp-python就可以了，使用以下命令安装:</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install llama-cpp-python</span><br></pre></td></tr></table></figure>
+<hr>
+<p>others: 其他的问题可以在open-interpreter作者对应工程<code>issues</code>里找到，地址如下：<br><a target="_blank" rel="noopener" href="https://github.com/KillianLucas/open-interpreter/">https://github.com/KillianLucas/open-interpreter/</a></p>
+
+            <div class="clearfix"></div>
+            <hr class="nogutter">
         </div>
-        
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 opening-statement">
-                <div class="col-md-4">
-                    <h3><a href="/2023/07/12/hello-world/">Hello World</a></h3>
-                    <span>
-                        <span class="post-meta">
-      <time datetime="2023-07-12T14:14:07.122Z" itemprop="datePublished">
-          2023-07-12
-      </time>
+        <nav class="m-pagination col-md-8 col-md-offset-2 col-sm-24" role="pagination">
     
-</span>
-                    </span>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                      
-                         Welcome to  Hexo ! This is your very first post. Check  documentation  for more info. If you get any problems when using Hexo, you can find the answer in  troubleshooting  or you can ask me on  GitHub . 
-   Quick Start 
-                      
-                    </p>
-                    
-                    <p class="pull-right readMore">
-                        <a href="/2023/07/12/hello-world/">Read More...</a>
-                    </p>
-                    
-                </div>
-                <div class="clearfix"></div>
-                <hr class="nogutter">
-            </div>
-        </div>
-        
-        <nav class="pagination" role="pagination">
-          
-          
-        </nav>
+    
+    <a class="pull-right" href="/2023/07/23/%E5%B0%86whisper%E5%BA%94%E7%94%A8%E4%BA%8EiOS/">
+        将whisper应用于iOS →
+    </a>
+    
+</nav>
+
+        <div class="col-md-8 col-md-offset-2 col-sm-24"><script type="text/javascript">
+  /**
+   * 搜狐畅言
+   */
+
+  /*
+  document.write('<div id="SOHUCS" sid="' + window.location.pathname.slice(1) + '" ></div>');
+
+  window.onload = function () {
+    (function () {
+      var appid = 'cytXXXX';
+      var conf = 'prod_xxxxxxxxxxxxxxxxx';
+      var width = window.innerWidth || document.documentElement.clientWidth;
+      var loadJs = function (d, a, id) {
+        var c = document.getElementsByTagName("head")[0] || document.head || document.documentElement;
+        var b = document.createElement("script");
+        b.setAttribute("type", "text/javascript");
+        b.setAttribute("charset", "UTF-8");
+        b.setAttribute("src", d);
+        if (id) {
+          b.setAttribute("id", id);
+        }
+        if (typeof a === "function") {
+          if (window.attachEvent) {
+            b.onreadystatechange = function () {
+              var e = b.readyState;
+              if (e === "loaded" || e === "complete") {
+                b.onreadystatechange = null;
+                a()
+              }
+            }
+          } else {
+            b.onload = a
+          }
+        }
+        c.appendChild(b)
+      };
+
+      loadJs("https://changyan.sohu.com/upload/changyan.js", function () {
+        window.changyan.api.config({
+          appid: appid,
+          conf: conf
+        })
+      });
+    })();
+  }
+  */
+
+</script>
+</div>
     </div>
 </section>
-<section id="statement">
-    <div class="container text-center wow fadeInUp" data-wow-delay="0.5s">
-        <div class="row">
-            <p>去尝试一下，走到那些从未踏足的地方，品尝那些未曾尝过的美食，领略前所未见的风景，认识各种有趣的人，热爱生活的多彩之处。</p>
-        </div>
-    </div>
-</section>
-<!-- ============================ END Content =========================== -->
+
 
       
 <!-- ============================ Footer =========================== -->
